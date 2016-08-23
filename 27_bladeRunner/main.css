@@ -1,0 +1,55 @@
+.black {
+  background-color: black;
+  width: 45vw;
+  height: 100vh;
+}
+.words {
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  position: absolute;
+  margin-top: 45%;
+  margin-left: 13%;
+}
+h4, h1 {
+  margin: -5px;
+}
+h1 {
+  font-size: 40px;
+  font-weight: 900;
+}
+h4 {
+  font-size: 12px;
+}
+.circles {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: absolute;
+  width: 42vw;
+  height: 79vh;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+p {
+  width: .8em;
+  height: .8em;
+  background-color: #9FC6EF;
+  margin: 2px;
+  border-radius: 50%;
+}
+.tears {
+  position: absolute;
+  margin-top: 13.2%;
+  margin-left: 20.4%;
+}
+.teardrop {
+  display: block;
+  margin: 20px;
+  width: .8em;
+  height: .8em;
+  border: none;
+  border-radius: 80% 0 55% 50% / 55% 0 80% 50%;
+  background: white;
+  transform: rotateZ(-45deg);
+}
